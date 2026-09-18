@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- ===== SEO META TAGS ===== -->
+    <title>G&M by Gift Moopelwa | Gardening & Landscaping in Ennerdale & Lenasia, Gauteng</title>
+    <meta name="description" content="Professional water-wise gardening, landscaping & maintenance in Ennerdale, Lenasia & Greater Gauteng. Growing Great Space while uplifting local youth. G&M by Gift Moopelwa." />
+    <meta name="keywords" content="gardening services Gauteng, landscaping Ennerdale, gardener Lenasia, water-wise garden Johannesburg, HOA garden maintenance Gauteng, indigenous plants, G&M Gardening, Johannesburg South gardener, Sedibeng landscaping, Vaal Triangle gardener" />
+    <meta name="author" content="Gift Moopelwa" />
+    <meta name="robots" content="index, follow" />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="G&M by Gift Moopelwa | Growing Great Space in Gauteng" />
+    <meta property="og:description" content="Water-wise gardening & landscaping for Gauteng homes and estates. Based in Ennerdale, offices in Lenasia." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://images.unsplash.com/photo-1558904541-efa843c96f01?w=1200" />
+    <meta property="og:url" content="https://www.gmgardening.co.za" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="G&M by Gift Moopelwa | Growing Great Space" />
+    <meta name="twitter:description" content="Water-wise gardening & landscaping for Gauteng homes and estates." />
+
+    <!-- Favicon -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌿</text></svg>" />
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+
+    <!-- ===== LOCAL BUSINESS SCHEMA (SEO) ===== -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LandscapingBusiness",
+      "name": "G&M by Gift Moopelwa",
+      "image": "https://images.unsplash.com/photo-1558904541-efa843c96f01?w=1200",
+      "description": "Water-wise gardening, landscaping and maintenance for Gauteng homes and estates. Based in Ennerdale with offices in Lenasia.",
+      "slogan": "Growing Great Space",
+      "telephone": "+27-69-211-8336",
+      "email": "gmgardeningservices24@gmail.com",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "ZA",
+        "addressRegion": "Gauteng",
+        "addressLocality": "Lenasia",
+        "streetAddress": "Lenasia Office"
+      },
+      "areaServed": ["Ennerdale", "Lenasia", "Johannesburg South", "Greater Gauteng", "Sedibeng", "Vaal Triangle"],
+      "priceRange": "R450 - R15000"
+    }
+    </script>
+</head>
+<body>
+
+    <!-- ===== TOAST ===== -->
+    <div id="toast"></div>
+
+    <!-- ===== PROMO BANNER ===== -->
+    <div id="promo-banner">
+        <div class="container">
+            <p>
+                <i class="fas fa-seedling"></i>
+                <strong>Spring Special:</strong> 20% off your first garden clean-up in Gauteng!
+                <a href="#contact">Claim Offer →</a>
+            </p>
+            <button id="close-promo" aria-label="Close promotion">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+    </div>
+
+    <!-- ===== HEADER / NAV ===== -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <i class="fas fa-leaf"></i>
+                <div>
+                    <h1>G&M <span>by Gift Moopelwa</span></h1>
+                    <small class="tagline">Growing Great Space</small>
+                </div>
+            </div>
+            <nav id="navbar">
+                <ul>
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#problems">Problems</a></li>
+                    <li><a href="#youth">Youth Impact</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#calculator">Estimate</a></li>
+                    <li><a href="#testimonials">Reviews</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="menu-toggle" id="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- ===== HERO ===== -->
+    <section id="hero">
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <div class="hero-content">
+                <h2>Growing <span>Great Space</span></h2>
+                <p>Proudly based in <strong>Ennerdale</strong> with offices in <strong>Lenasia</strong>. Professional water-wise gardening, landscaping, and maintenance for homes and estates across Greater Gauteng.</p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn-primary">Get a Free Quote</a>
+                    <a href="#calculator" class="btn-secondary">Instant Estimate</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== SERVICES ===== -->
+    <section id="services">
+        <div class="container">
+            <h2 class="section-title">Our <span>Services</span></h2>
+            <p class="section-subtitle">Professional gardening solutions tailored for the Gauteng Highveld climate.</p>
+            <div class="service-grid">
+                <div class="service-card fade-in">
+                    <i class="fas fa-cut"></i>
+                    <h3>Lawn Mowing</h3>
+                    <p>Regular and precise lawn mowing to keep your grass healthy and immaculate — even during water restrictions.</p>
+                </div>
+                <div class="service-card fade-in">
+                    <i class="fas fa-tree"></i>
+                    <h3>Hedge & Shrub Trimming</h3>
+                    <p>Expert shaping and pruning for beautiful, structured hedges that thrive in the Highveld climate.</p>
+                </div>
+                <div class="service-card fade-in">
+                    <i class="fas fa-seedling"></i>
+                    <h3>Water-Wise Garden Design</h3>
+                    <p>Creative planting schemes using indigenous, drought-resistant flora to boost curb appeal and save water.</p>
+                </div>
+                <div class="service-card fade-in">
+                    <i class="fas fa-tint"></i>
+                    <h3>Irrigation & Maintenance</h3>
+                    <p>Efficient drip systems and seasonal clean-ups to navigate municipal restrictions while keeping your garden thriving.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== PROBLEMS WE SOLVE ===== -->
+    <section id="problems">
+        <div class="container">
+            <h2 class="section-title">Problems We <span>Solve</span></h2>
+            <p class="section-subtitle">Every Gauteng garden faces unique challenges. Here's how G&M delivers real solutions.</p>
+
+            <div class="problems-grid">
+                <div class="problem-card fade-in">
+                    <div class="problem-icon"><i class="fas fa-tint-slash"></i></div>
+                    <h3>Water Scarcity & Restrictions</h3>
+                    <p><strong>The Problem:</strong> Gauteng's municipal water restrictions and unpredictable Highveld rainfall make it nearly impossible to maintain a lush garden year-round.</p>
+                    <p class="problem-solution"><i class="fas fa-check-circle"></i> <strong>Our Solution:</strong> Water-wise garden design using indigenous plants, drip irrigation, and mulch layering that thrives on minimal water.</p>
+                </div>
+
+                <div class="problem-card fade-in">
+                    <div class="problem-icon"><i class="fas fa-clock"></i></div>
+                    <h3>No Time for Maintenance</h3>
+                    <p><strong>The Problem:</strong> Busy professionals, dual-income households, and working parents in Gauteng simply don't have weekends to mow, prune, and weed.</p>
+                    <p class="problem-solution"><i class="fas fa-check-circle"></i> <strong>Our Solution:</strong> Affordable monthly and weekly maintenance plans — we handle everything so you can focus on what matters.</p>
+                </div>
+
+                <div class="problem-card fade-in">
+                    <div class="problem-icon"><i class="fas fa-home"></i></div>
+                    <h3>HOA & Estate Compliance</h3>
+                    <p><strong>The Problem:</strong> Estates and HOAs in Lenasia, Ennerdale, and Johannesburg South face fines and complaints when gardens look untidy. Volunteers lack expertise and time.</p>
+                    <p class="problem-solution"><i class="fas fa-check-circle"></i> <strong>Our Solution:</strong> Reliable commercial contracts with professional teams, safety compliance, and reporting to keep your community beautiful.</p>
+                </div>
+
+                <div class="problem-card fade-in">
+                    <div class="problem-icon"><i class="fas fa-seedling"></i></div>
+                    <h3>Poor Soil & Highveld Climate</h3>
+                    <p><strong>The Problem:</strong> Highveld frost in winter, heavy summer storms, and clay-heavy Gauteng soil kill most non-native plants — wasting money and effort.</p>
+                    <p class="problem-solution"><i class="fas fa-check-circle"></i> <strong>Our Solution:</strong> On-site soil testing and climate-matched plant selection by our hands-on experts for gardens that last decades.</p>
+                </div>
+
+                <div class="problem-card fade-in">
+                    <div class="problem-icon"><i class="fas fa-shield-alt"></i></div>
+                    <h3>Safety & Trust Concerns</h3>
+                    <p><strong>The Problem:</strong> Letting strangers onto your property is risky. Unvetted workers, no insurance, and unsafe equipment are common in Gauteng.</p>
+                    <p class="problem-solution"><i class="fas fa-check-circle"></i> <strong>Our Solution:</strong> Fully insured, vetted, and trained teams. All our staff are background-checked and adhere to strict safety protocols.</p>
+                </div>
+
+                <div class="problem-card fade-in">
+                    <div class="problem-icon"><i class="fas fa-hand-holding-usd"></i></div>
+                    <h3>Unaffordable Pricing</h3>
+                    <p><strong>The Problem:</strong> Many landscaping companies in Gauteng overcharge or add hidden fees, making quality service a luxury only the wealthy can afford.</p>
+                    <p class="problem-solution"><i class="fas fa-check-circle"></i> <strong>Our Solution:</strong> Transparent ballpark pricing via our <a href="#calculator">instant estimate calculator</a>, no hidden fees, and packages for every budget.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== YOUTH & COMMUNITY UPLIFTMENT ===== -->
+    <section id="youth">
+        <div class="container">
+            <div class="youth-header">
+                <div class="youth-badge">
+                    <i class="fas fa-users"></i> Social Impact
+                </div>
+                <h2 class="section-title">Uplifting <span>Youth & Communities</span></h2>
+                <p class="youth-intro">
+                    G&M isn't just a gardening business — it's a <strong>youth-driven movement</strong> tackling South Africa's biggest crisis: unemployment.
+                    With over <strong>45% of SA youth out of work</strong> — and even higher in Gauteng townships — we're building a different story, one garden at a time.
+                </p>
+            </div>
+
+            <div class="youth-grid">
+                <div class="youth-card fade-in">
+                    <div class="youth-icon-wrap"><i class="fas fa-briefcase"></i></div>
+                    <h3>Jobs for Local Youth</h3>
+                    <p>We hire and train unemployed youth (18–35) from Ennerdale, Lenasia, and surrounding townships — creating sustainable, dignified work in a field with real growth potential.</p>
+                </div>
+
+                <div class="youth-card fade-in">
+                    <div class="youth-icon-wrap"><i class="fas fa-graduation-cap"></i></div>
+                    <h3>Skills Development</h3>
+                    <p>Every team member receives hands-on training in horticulture, irrigation, landscaping, customer service, and small-business skills — skills they keep for life.</p>
+                </div>
+
+                <div class="youth-card fade-in">
+                    <div class="youth-icon-wrap"><i class="fas fa-rocket"></i></div>
+                    <h3>Entrepreneurship Pipeline</h3>
+                    <p>Our goal: help each trained gardener start their own micro-business within 2 years. We mentor, supply starter toolkits, and refer overflow work.</p>
+                </div>
+
+                <div class="youth-card fade-in">
+                    <div class="youth-icon-wrap"><i class="fas fa-seedling"></i></div>
+                    <h3>Community Food Gardens</h3>
+                    <p>We donate 5% of our profits toward establishing food gardens at local schools, churches, and community centres — turning unused land into food security.</p>
+                </div>
+
+                <div class="youth-card fade-in">
+                    <div class="youth-icon-wrap"><i class="fas fa-heart"></i></div>
+                    <h3>Elderly & Disability Support</h3>
+                    <p>We offer discounted garden services to pensioners and disabled community members who can no longer maintain their own gardens.</p>
+                </div>
+
+                <div class="youth-card fade-in">
+                    <div class="youth-icon-wrap"><i class="fas fa-handshake"></i></div>
+                    <h3>Local Supply Chain</h3>
+                    <p>We source plants and tools from local indigenous nurseries and township-based suppliers — keeping money circulating within our communities.</p>
+                </div>
+            </div>
+
+            <div class="youth-impact-bar fade-in">
+                <div class="impact-stat">
+                    <span class="impact-number" data-target="15">0</span>
+                    <span class="impact-label">Youth to be Employed by End of Year 1</span>
+                </div>
+                <div class="impact-stat">
+                    <span class="impact-number" data-target="50">0</span>
+                    <span class="impact-label">Gardens Revived in Year 1</span>
+                </div>
+                <div class="impact-stat">
+                    <span class="impact-number" data-target="5">0</span>
+                    <span class="impact-label">Community Food Gardens Planned</span>
+                </div>
+                <div class="impact-stat">
+                    <span class="impact-number" data-target="100">0</span>
+                    <span class="impact-label">% Indigenous & Water-Wise Plants</span>
+                </div>
+            </div>
+
+            <div class="youth-cta fade-in">
+                <h3>Want to Partner With Us?</h3>
+                <p>Are you a Gauteng-based company, NGO, or municipality looking to fund youth development or sponsor a community garden? Let's talk.</p>
+                <div class="youth-cta-buttons">
+                    <a href="#contact" class="btn-primary">Partner With Us</a>
+                    <a href="https://wa.me/27692118336?text=Hi%20G%26M%2C%20I%27d%20like%20to%20discuss%20a%20youth%20partnership" target="_blank" class="btn-whatsapp-inline">
+                        <i class="fab fa-whatsapp"></i> Chat Now
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== BEFORE / AFTER GALLERY ===== -->
+    <section id="gallery">
+        <div class="container">
+            <h2 class="section-title">Before & <span>After</span></h2>
+            <p class="section-subtitle">Real transformations from real Gauteng clients. (Placeholder images below — swap for your pilot client photos.)</p>
+
+            <div class="gallery-grid">
+                <div class="gallery-item fade-in">
+                    <div class="ba-wrapper">
+                        <div class="ba-pair">
+                            <div class="ba-image">
+                                <img src="https://images.unsplash.com/photo-1592419044706-39796d40f98c?w=800&auto=format&fit=crop" alt="Before - Overgrown garden" />
+                                <span class="ba-label ba-before">Before</span>
+                            </div>
+                            <div class="ba-image">
+                                <img src="https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?w=800&auto=format&fit=crop" alt="After - Transformed garden" />
+                                <span class="ba-label ba-after">After</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-caption">
+                        <h3>Ennerdale Family Garden</h3>
+                        <p>Full clean-up + indigenous planting scheme in 3 days.</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item fade-in">
+                    <div class="ba-wrapper">
+                        <div class="ba-pair">
+                            <div class="ba-image">
+                                <img src="https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=800&auto=format&fit=crop" alt="Before - Dry lawn" />
+                                <span class="ba-label ba-before">Before</span>
+                            </div>
+                            <div class="ba-image">
+                                <img src="https://images.unsplash.com/photo-1558904541-efa843c96f01?w=800&auto=format&fit=crop" alt="After - Lush lawn" />
+                                <span class="ba-label ba-after">After</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-caption">
+                        <h3>Lenasia Water-Wise Revamp</h3>
+                        <p>Drip irrigation + drought-resistant landscaping.</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item fade-in">
+                    <div class="ba-wrapper">
+                        <div class="ba-pair">
+                            <div class="ba-image">
+                                <img src="https://images.unsplash.com/photo-1560717789-0ac7c58ac90a?w=800&auto=format&fit=crop" alt="Before - Untrimmed hedges" />
+                                <span class="ba-label ba-before">Before</span>
+                            </div>
+                            <div class="ba-image">
+                                <img src="https://images.unsplash.com/photo-1600240644455-3edc55c375fe?w=800&auto=format&fit=crop" alt="After - Trimmed hedges" />
+                                <span class="ba-label ba-after">After</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-caption">
+                        <h3>Johannesburg South HOA Estate</h3>
+                        <p>Monthly hedge sculpting + lawn restoration.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== QUOTE CALCULATOR ===== -->
+    <section id="calculator">
+        <div class="container">
+            <h2 class="section-title">Instant <span>Estimate</span></h2>
+            <p class="section-subtitle">Get a ballpark price in seconds. Final quote is confirmed after a site visit.</p>
+
+            <div class="calculator-wrapper fade-in">
+                <div class="calc-form">
+                    <div class="form-group">
+                        <label for="calc-size">Garden Size</label>
+                        <select id="calc-size">
+                            <option value="350">Small (under 200 m²)</option>
+                            <option value="650" selected>Medium (200 – 500 m²)</option>
+                            <option value="1100">Large (500 – 1000 m²)</option>
+                            <option value="1800">Estate / Commercial (1000+ m²)</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="calc-service">Service Type</label>
+                        <select id="calc-service">
+                            <option value="1">Lawn Mowing</option>
+                            <option value="1.4">Hedge Trimming</option>
+                            <option value="2.2">Water-Wise Garden Design</option>
+                            <option value="1.8">Irrigation Installation</option>
+                            <option value="2.5">Full Garden Revamp</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="calc-frequency">Frequency</label>
+                        <select id="calc-frequency">
+                            <option value="1.3">Once-off</option>
+                            <option value="1.0" selected>Monthly</option>
+                            <option value="0.85">Weekly (best value)</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="calc-result">
+                    <p class="calc-label">Estimated Price</p>
+                    <p class="calc-price">R <span id="calc-output">845</span></p>
+                    <p class="calc-note">Ballpark range only. Final price confirmed on-site.</p>
+                    <a href="#contact" class="btn-primary">Book Site Visit →</a>
+                    <a href="https://wa.me/27692118336?text=Hi%20G%26M%2C%20I%27d%20like%20a%20quote" target="_blank" class="btn-whatsapp-inline">
+                        <i class="fab fa-whatsapp"></i> Chat on WhatsApp
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== 3 KEYS APPROACH ===== -->
+    <section id="approach">
+        <div class="container">
+            <h2 class="section-title">Our <span>Strategic Approach</span></h2>
+            <p class="approach-intro">Gauteng's gardening market demands smart, localized solutions. Here is how we deliver.</p>
+            <div class="approach-grid">
+                <div class="approach-card fade-in">
+                    <i class="fas fa-sun"></i>
+                    <h3>1. Environmental Realities</h3>
+                    <p>We design for Gauteng's Highveld climate — frost, summer storms, and municipal water restrictions. We navigate these challenges so you don't have to.</p>
+                </div>
+                <div class="approach-card fade-in">
+                    <i class="fas fa-building"></i>
+                    <h3>2. High-Value Growth</h3>
+                    <p>We focus on commercial properties, estates, and HOA contracts across Johannesburg South, delivering reliable, premium service that enhances property values.</p>
+                </div>
+                <div class="approach-card fade-in">
+                    <i class="fas fa-shield-alt"></i>
+                    <h3>3. Operational Safety</h3>
+                    <p>We mitigate local risks with on-site soil evaluations, equipment safety protocols, and strict labor law compliance to ensure worry-free service delivery.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== ABOUT ===== -->
+    <section id="about">
+        <div class="container">
+            <div class="about-grid fade-in">
+                <div class="about-text">
+                    <h2 class="section-title">About <span>G&M</span></h2>
+                    <p><strong>Founded by Gift Moopelwa</strong>, G&M is a proudly Gauteng-based gardening service headquartered in <strong>Ennerdale</strong>, with our business office located in <strong>Lenasia</strong>. We serve homes, estates, and businesses across Johannesburg South, Sedibeng, and the Vaal Triangle.</p>
+                    <p>Every garden we touch is more than just landscaping — it's a statement of pride, a commitment to <strong>water-wise living</strong>, and a job created for a young person in our community. We combine <strong>hands-on expertise</strong> with a deep understanding of <strong>Gauteng's unique Highveld climate</strong> to deliver gardens that thrive for years.</p>
+                    <div class="feature-grid">
+                        <span><i class="fas fa-check-circle"></i> Fully insured & licensed</span>
+                        <span><i class="fas fa-check-circle"></i> Indigenous & drought-resistant</span>
+                        <span><i class="fas fa-check-circle"></i> 100% satisfaction guaranteed</span>
+                        <span><i class="fas fa-check-circle"></i> Youth-empowering business</span>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1558904541-efa843c96f01?w=800&auto=format&fit=crop" alt="Beautiful South African Garden" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== TESTIMONIALS ===== -->
+    <section id="testimonials">
+        <div class="container">
+            <h2 class="section-title">What Clients <span>Say</span></h2>
+            <div class="testimonial-grid">
+                <div class="testimonial-card fade-in">
+                    <div class="stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p>"Gift and his team completely transformed our overgrown backyard into a beautiful, water-wise garden. They respected our water restrictions and delivered on time."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">S</div>
+                        <div>
+                            <strong>Sarah M.</strong>
+                            <small>Ennerdale, Gauteng</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card fade-in">
+                    <div class="stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p>"We manage a residential estate in Lenasia and G&M has been our go-to for monthly maintenance. Reliable, professional, and always safety-conscious."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">T</div>
+                        <div>
+                            <strong>Thabo K.</strong>
+                            <small>HOA Manager, Lenasia</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card fade-in">
+                    <div class="stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p>"As a busy professional, I don't have time for garden maintenance. G&M's monthly plan is exactly what I needed. My lawn has never looked better."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">L</div>
+                        <div>
+                            <strong>Lerato D.</strong>
+                            <small>Vereeniging, Vaal Triangle</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FAQ ===== -->
+    <section id="faq">
+        <div class="container">
+            <h2 class="section-title">Frequently <span>Asked</span></h2>
+            <div class="faq-list">
+                <div class="faq-item fade-in">
+                    <button class="faq-question">
+                        How do you work around water restrictions?
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>We use drip irrigation systems, drought-resistant indigenous plants, and mulch layering to minimize water usage. We also schedule watering during allowed municipal times and use greywater systems where possible.</p>
+                    </div>
+                </div>
+                <div class="faq-item fade-in">
+                    <button class="faq-question">
+                        What areas do you service?
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>We're based in <strong>Ennerdale</strong> with an office in <strong>Lenasia</strong>, and we serve the entire Greater Gauteng region — including Johannesburg South, Soweto, Sedibeng (Vereeniging, Vanderbijlpark), and the Vaal Triangle. Contact us for a specific suburb check.</p>
+                    </div>
+                </div>
+                <div class="faq-item fade-in">
+                    <button class="faq-question">
+                        How much does a basic garden clean-up cost?
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Basic clean-ups start from R450 for small gardens. Use our <a href="#calculator">instant estimate calculator</a> above for a ballpark, or request a free site visit for an exact quote.</p>
+                    </div>
+                </div>
+                <div class="faq-item fade-in">
+                    <button class="faq-question">
+                        Are you insured?
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Yes, G&M is fully insured and licensed. We also comply with all South African labor laws and safety regulations. Proof of insurance is available on request.</p>
+                    </div>
+                </div>
+                <div class="faq-item fade-in">
+                    <button class="faq-question">
+                        Do you offer once-off or monthly services?
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Both. We offer once-off clean-ups, and monthly or weekly maintenance packages (which offer the best value and keep your garden consistently beautiful).</p>
+                    </div>
+                </div>
+                <div class="faq-item fade-in">
+                    <button class="faq-question">
+                        Do you really employ youth from the community?
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Absolutely. Our entire team is made up of young people (18–35) from Ennerdale, Lenasia, and surrounding townships. Every hire gets full training in horticulture, safety, and customer service — plus mentorship toward starting their own business one day.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section id="contact">
+        <div class="container">
+            <h2 class="section-title">Get a <span>Free Quote</span></h2>
+            <p class="section-subtitle">Fill in the form below and we'll get back to you within 24 hours.</p>
+
+            <div class="contact-wrapper fade-in">
+                <!-- Web3Forms Integration -->
+                <form id="contact-form" action="https://api.web3forms.com/submit" method="POST">
+                    <input type="hidden" name="access_key" value="4828d85b-a076-46fb-9438-3b5ab099f41d">
+                    
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" name="name" placeholder="Your name" required />
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" placeholder="you@example.com" required />
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone / WhatsApp (Optional)</label>
+                        <input type="tel" id="phone" name="phone" placeholder="+27 69 211 8336" />
+                    </div>
+                    <div class="form-group">
+                        <label for="service">Service Interested In</label>
+                        <select id="service" name="service">
+                            <option>Lawn Mowing</option>
+                            <option>Hedge Trimming</option>
+                            <option>Water-Wise Garden Design</option>
+                            <option>Irrigation Systems</option>
+                            <option>General Maintenance</option>
+                            <option>HOA / Estate Contract</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Project Details</label>
+                        <textarea id="message" name="message" rows="4" placeholder="Tell us about your garden..." maxlength="500"></textarea>
+                        <small id="char-count">0 / 500</small>
+                    </div>
+                    <input type="text" name="_gotcha" style="display:none" />
+                    <button type="submit" class="btn-primary">Send Message</button>
+                </form>
+
+                <div class="contact-info">
+                    <h3>Contact Details</h3>
+                    <p><i class="fas fa-phone-alt"></i> <a href="tel:+27692118336">+27 69 211 8336</a></p>
+                    <p><i class="fas fa-envelope"></i> <a href="mailto:gmgardeningservices24@gmail.com">gmgardeningservices24@gmail.com</a></p>
+                    <p><i class="fas fa-map-marker-alt"></i> <strong>Base:</strong> Ennerdale, Gauteng<br>
+                       <span style="padding-left:40px;"><strong>Office:</strong> Lenasia, Gauteng</span></p>
+                    <p><i class="fas fa-clock"></i> Mon–Sat: 07:00 – 17:00</p>
+
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="https://wa.me/27692118336" target="_blank" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ===== GOOGLE MAPS (Lenasia, Gauteng) ===== -->
+            <div class="map-wrapper fade-in">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14319.885542353534!2d27.8255!3d-26.3255!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e95a0f3b6c1a4d7%3A0x9d2c5d77f2a24f1!2sLenasia%2C%20Gauteng!5e0!3m2!1sen!2sza!4v1700000000000!5m2!1sen!2sza"
+                    width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer>
+        <div class="container">
+            <p>&copy; <span id="current-year">2026</span> G&M by Gift Moopelwa. <strong>Growing Great Space</strong>.</p>
+            <p class="footer-small">Ennerdale • Lenasia • Greater Gauteng | Proudly South African 🌿</p>
+        </div>
+    </footer>
+
+    <button id="back-to-top" aria-label="Back to top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <a href="https://wa.me/27692118336?text=Hi%20G%26M%2C%20I%27d%20like%20a%20quote%20for%20my%20garden"
+       target="_blank"
+       class="whatsapp-float"
+       aria-label="Chat on WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+        <span class="whatsapp-tooltip">Chat with us</span>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
